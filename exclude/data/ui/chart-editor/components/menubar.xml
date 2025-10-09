@@ -7,38 +7,38 @@
     }
   </style>
   <menu text="File">
-    <menu-item id="menubarItemNewChart" text="New Chart" shortcutText="Ctrl+N" />
+    <menu-item id="menubarItemNewChart" text="New Chart" />
     <menu-separator />
-    <menu-item id="menubarItemOpenChart" text="Open Chart..." shortcutText="Ctrl+O" />
+    <menu-item id="menubarItemOpenChart" text="Open Chart..." />
     <menu id="menubarOpenRecent" text="Open Recent" />
     <menu-separator />
-    <menu-item id="menubarItemSaveChart" text="Save Chart" shortcutText="Ctrl+S" />
-    <menu-item id="menubarItemSaveChartAs" text="Save Chart As..." shortcutText="Ctrl+Shift+S" />
+    <menu-item id="menubarItemSaveChart" text="Save Chart" />
+    <menu-item id="menubarItemSaveChartAs" text="Save Chart As..." />
     <menu-separator />
-    <menu-item id="menubarItemPreferences" text="Preferences" disabled="true" />
+    <menu-item id="menubarItemPreferences" text="Preferences" />
     <menu-separator />
-    <menu-item id="menubarItemExit" text="Exit" shortcutText="Ctrl+Q" />
+    <menu-item id="menubarItemExit" text="Exit" />
   </menu>
   <menu text="Edit" width="208px;">
-    <menu-item id="menubarItemUndo" text="Undo" shortcutText="Ctrl+Z" />
-    <menu-item id="menubarItemRedo" text="Redo" shortcutText="Ctrl+Y" />
+    <menu-item id="menubarItemUndo" text="Undo" />
+    <menu-item id="menubarItemRedo" text="Redo" />
     <menu-separator />
-    <menu-item id="menubarItemCut" text="Cut" shortcutText="Ctrl+X" />
-    <menu-item id="menubarItemCopy" text="Copy" shortcutText="Ctrl+C" />
-    <menu-item id="menubarItemPaste" text="Paste" shortcutText="Ctrl+V" />
-    <menu-item id="menubarItemPasteUnsnapped" text="Paste (Unsnapped)" shortcutText="Ctrl+Shift+V" />
-    <menu-item id="menubarItemDelete" text="Delete" shortcutText="Delete" />
-    <menu-item id="menubarItemDeleteStacked" text="Delete Stacked Notes" shortcutText="Shift + Delete" />
+    <menu-item id="menubarItemCut" text="Cut" />
+    <menu-item id="menubarItemCopy" text="Copy" />
+    <menu-item id="menubarItemPaste" text="Paste" />
+    <menu-item id="menubarItemPasteUnsnapped" text="Paste (Unsnapped)" />
+    <menu-item id="menubarItemDelete" text="Delete" />
+    <menu-item id="menubarItemDeleteStacked" text="Delete Stacked Notes" />
     <menu-separator />
-    <menu-item id="menubarItemFlipNotes" text="Flip Selected Notes" shortcutText="Ctrl+F" />
+    <menu-item id="menubarItemFlipNotes" text="Flip Selected Notes" />
     <menu-separator />
-    <menu-item id="menubarItemSelectAllNotes" text="Select All Notes" shortcutText="Ctrl+A" />
-    <menu-item id="menubarItemSelectAllEvents" text="Select All Events" shortcutText="Ctrl+Alt+A" />
-    <menu-item id="menubarItemSelectInverse" text="Invert Selection" shortcutText="Ctrl+I" />
-    <menu-item id="menubarItemSelectNone" text="Deselect All" shortcutText="Ctrl+D" />
-    <menu-item id="menubarItemSelectRegion" text="Select Region" shortcutText="Tab" disabled="true" />
-    <menu-item id="menubarItemSelectBeforeCursor" text="Select Before Cursor" shortcutText="Shift+Home" disabled="true" />
-    <menu-item id="menubarItemSelectAfterCursor" text="Select After Cursor" shortcutText="Shift+End" disabled="true" />
+    <menu-item id="menubarItemSelectAllNotes" text="Select All Notes" />
+    <menu-item id="menubarItemSelectAllEvents" text="Select All Events" />
+    <menu-item id="menubarItemSelectInverse" text="Invert Selection" />
+    <menu-item id="menubarItemSelectNone" text="Deselect All" />
+    <menu-item id="menubarItemSelectRegion" text="Select Region" disabled="true" />
+    <menu-item id="menubarItemSelectBeforeCursor" text="Select Before Cursor" disabled="true" />
+    <menu-item id="menubarItemSelectAfterCursor" text="Select After Cursor" disabled="true" />
     <menu-separator />
     <hbox>
       <label text="Note Stack Threshold" styleName="menuLabel" paddingLeft="12px;" horizontalAlign="left" verticalAlign="center" />
@@ -50,8 +50,8 @@
     </hbox>
     <menu-separator />
     <menu text="Note Snapping">
-      <menu-item id="menuBarItemNoteSnapDecrease" text="Decrease Note Snap Precision" shortcutText="Left Arrow" />
-      <menu-item id="menuBarItemNoteSnapIncrease" text="Increase Note Snap Precision" shortcutText="Right Arrow" />
+      <menu-item id="menuBarItemNoteSnapDecrease" text="Decrease Note Snap Precision" />
+      <menu-item id="menuBarItemNoteSnapIncrease" text="Increase Note Snap Precision" />
     </menu>
     <menu text="Live Input Mode">
       <menuoptionbox id="menuBarItemInputStyleNone" text="None" group="menubarItemInputStyleGroup" />
@@ -68,11 +68,11 @@
     <menu-separator />
     <menu-checkbox id="menubarItemViewIndicators" text="Note Kind Indicator" tooltip="Show an indicator if a note is of a non-default kind." />
     <menu-separator />
-    <menu-item id="menubarItemDifficultyUp" text="Increase Difficulty" tooltip="Manage Difficulties with the Difficulty Toolbox" shortcutText="Ctrl+Left" />
-    <menu-item id="menubarItemDifficultyDown" text="Decrease Difficulty" tooltip="Manage Difficulties with the Difficulty Toolbox" shortcutText="Ctrl+Right" />
+    <menu-item id="menubarItemDifficultyUp" text="Increase Difficulty" tooltip="Manage Difficulties with the Difficulty Toolbox" />
+    <menu-item id="menubarItemDifficultyDown" text="Decrease Difficulty" tooltip="Manage Difficulties with the Difficulty Toolbox" />
   </menu>
   <menu text="Audio">
-    <menu-item id="menubarItemPlayPause" text="Play/Pause" shortcutText="Space" />
+    <menu-item id="menubarItemPlayPause" text="Play/Pause" />
     <menu-separator />
     <menu-item id="menubarItemLoadInstrumental" text="Load Instrumental" />
     <menu-item id="menubarItemLoadVocals" text="Load Vocals" />
@@ -122,8 +122,8 @@
     <menu-checkbox id="menubarItemThemeMusic" text="Play Theme Music" />
   </menu>
   <menu text="Test">
-    <menu-item id="menubarItemPlaytestFull" text="Playtest Chart" shortcutText="Enter" />
-    <menu-item id="menubarItemPlaytestMinimal" text="Playtest Chart (Minimal Mode)" shortcutText="Shift-Enter" />
+    <menu-item id="menubarItemPlaytestFull" text="Playtest Chart" />
+    <menu-item id="menubarItemPlaytestMinimal" text="Playtest Chart (Minimal Mode)" />
   </menu>
   <menu text="Window">
     <menu-checkbox id="menubarItemToggleToolboxDifficulty" text="Difficulty" />
@@ -138,7 +138,7 @@
   </menu>
   <menu text="Help">
     <menu-item id="menubarItemWelcomeDialog" text="Welcome Dialog" />
-    <menu-item id="menubarItemUserGuide" text="User Guide" shortcutText="F1" />
+    <menu-item id="menubarItemUserGuide" text="User Guide" />
     <menu-item id="menubarItemGoToBackupsFolder" text="Go to Backups Folder" />
     <menu-item id="menubarItemAbout" text="About..." />
   </menu>
